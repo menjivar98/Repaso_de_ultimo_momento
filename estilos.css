@@ -1,0 +1,41 @@
+.jumbotron{
+    text-align: center;
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-size: cover; 
+    color: white;
+    padding: 0;
+}
+
+.jumbotron > h2{
+    text-align: start;
+    margin-top:0;
+    padding-top:0; 
+}
+
+.botonF{
+    background-image: url(images/1.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover; 
+    border: 1px solid #fff;
+    border-radius:100%;
+    color: rgb(255, 255,255);
+    display: block;
+    height: 4em;
+    text-indent: 4em;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 4em;
+    margin: 0 auto 2em auto; 
+}
+
+article{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows:1fr 1fr; 
+    text-align: center;
+    justify-content: center;
+}
+
+
